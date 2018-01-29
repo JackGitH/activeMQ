@@ -1,0 +1,45 @@
+<ehcache>
+    <diskStore path="java.io.tmpdir"/>
+    <defaultCache
+            maxElementsInMemory="10000"
+            eternal="true"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            overflowToDisk="true"
+    />
+    <cache name="account_cache"
+           maxElementsInMemory="1"
+           eternal="true"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+    />
+    <cache name="misSupply_cache"
+           maxElementsInMemory="1"
+           eternal="true"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+    />
+    <cache name="cf_cache"
+           maxElementsInMemory="1"
+           eternal="true"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+    />
+    <cache name="suqc_cache"
+           maxElementsInMemory="1"
+           eternal="true"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+    />
+    <cache name="supd_cache"
+           maxElementsInMemory="1"
+           eternal="true"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+    />
+</ehcache>
